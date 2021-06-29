@@ -1,0 +1,18 @@
+.score{
+    background-color: #F1F1F1;
+    color:#23120B ;
+    margin:20px ;
+    padding:20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bestPlayer li {
+    
+    color:black;
+    border-bottom: solid 2px black;
+    margin: 10px 3px;
+    text-align: left;
+}
+

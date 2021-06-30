@@ -104,7 +104,7 @@ startQuiz.addEventListener("click", function () {
             endQuiz.classList.remove("hide");
             finalScore.textContent = 0;
             question.setAttribute("class", "hide")
-            
+            localStorage.setItem("score",0)
         }
 
 

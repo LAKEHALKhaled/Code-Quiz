@@ -13,3 +13,5 @@ WHEN the question is answered correctly another question is presented
 WHEN the question is answered incorrectly 5 seconds is subtracted from the clock 
 WHEN all questions are answered or the timer reaches 0 the game is over.
 THEN add the initials and save the score
+
+website : https://lakehalkhaled.github.io/Code-Quiz/

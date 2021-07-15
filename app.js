@@ -65,7 +65,7 @@ addscore.addEventListener("click",function () {
     var playerScore ={player, highscore}
     var highScores = JSON.parse(localStorage.getItem("scores"))  || []
     highScores.push(playerScore)
-    localStorage.setItem("scores",JSON.stringify(highScores))
+    localStorage.setItem("scores" , JSON.stringify(highScores))
     location.replace("score.html")
 })
     
